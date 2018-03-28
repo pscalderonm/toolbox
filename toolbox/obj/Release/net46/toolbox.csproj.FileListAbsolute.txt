@@ -1,0 +1,10 @@
+C:\Users\pablo\Source\repos\toolbox\bin\Release\net46\com.pscalderonm.toolbox.dll
+C:\Users\pablo\Source\repos\toolbox\bin\Release\net46\com.pscalderonm.toolbox.pdb
+C:\Users\pablo\Source\repos\toolbox\bin\Release\net46\Newtonsoft.Json.dll
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\toolbox.csprojResolveAssemblyReference.cache
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\toolbox.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\toolbox.AssemblyInfoInputs.cache
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\toolbox.AssemblyInfo.cs
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\toolbox.csproj.CopyComplete
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\com.pscalderonm.toolbox.dll
+C:\Users\pablo\Source\repos\toolbox\obj\Release\net46\com.pscalderonm.toolbox.pdb

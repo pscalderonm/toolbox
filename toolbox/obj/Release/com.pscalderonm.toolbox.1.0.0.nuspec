@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>com.pscalderonm.toolbox</id>
+    <version>1.0.0</version>
+    <title>Friendly Toolbox by Pablo S. Calderon</title>
+    <authors>com.pscalderonm.toolbox</authors>
+    <owners>com.pscalderonm.toolbox</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <iconUrl>https://github.com/pscalderonm/resources/blob/master/images/toolbox.png?raw=true</iconUrl>
+    <description>A series of utilities and patterns to build friendly code.</description>
+    <copyright>Copyright © 2018</copyright>
+    <tags>pscalderonm toolbox</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\pablo\Source\repos\toolbox\bin\Release\net452\com.pscalderonm.toolbox.dll" target="lib\net452\com.pscalderonm.toolbox.dll" />
+    <file src="C:\Users\pablo\Source\repos\toolbox\bin\Release\net46\com.pscalderonm.toolbox.dll" target="lib\net46\com.pscalderonm.toolbox.dll" />
+    <file src="C:\Users\pablo\Source\repos\toolbox\bin\Release\netstandard2.0\com.pscalderonm.toolbox.dll" target="lib\netstandard2.0\com.pscalderonm.toolbox.dll" />
+  </files>
+</package>
