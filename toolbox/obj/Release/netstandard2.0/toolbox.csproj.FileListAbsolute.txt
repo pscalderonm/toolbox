@@ -1,8 +1,0 @@
-C:\Users\pablo\Source\repos\toolbox\bin\Release\netstandard2.0\com.pscalderonm.toolbox.deps.json
-C:\Users\pablo\Source\repos\toolbox\bin\Release\netstandard2.0\com.pscalderonm.toolbox.dll
-C:\Users\pablo\Source\repos\toolbox\bin\Release\netstandard2.0\com.pscalderonm.toolbox.pdb
-C:\Users\pablo\Source\repos\toolbox\obj\Release\netstandard2.0\toolbox.csproj.CoreCompileInputs.cache
-C:\Users\pablo\Source\repos\toolbox\obj\Release\netstandard2.0\toolbox.AssemblyInfoInputs.cache
-C:\Users\pablo\Source\repos\toolbox\obj\Release\netstandard2.0\toolbox.AssemblyInfo.cs
-C:\Users\pablo\Source\repos\toolbox\obj\Release\netstandard2.0\com.pscalderonm.toolbox.dll
-C:\Users\pablo\Source\repos\toolbox\obj\Release\netstandard2.0\com.pscalderonm.toolbox.pdb
