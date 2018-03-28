@@ -15,6 +15,9 @@
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
 		<Title>Friendly Toolbox by Pablo S. Calderon</Title>
 		<PackageIconUrl>https://github.com/pscalderonm/resources/blob/master/images/toolbox.png?raw=true</PackageIconUrl>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.0.1</AssemblyVersion>
+		<FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
