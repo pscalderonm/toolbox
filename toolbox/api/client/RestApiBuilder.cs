@@ -95,7 +95,7 @@ namespace com.pscalderonm.toolbox.api.client
 			var webRequest = WebRequest.Create(uri);
 			webRequest.Method = method;
 			webRequest.ContentType = contentType ?? webRequest.ContentType;
-			webRequest.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);			
+			webRequest.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore); webRequest.Timeout = timeout.HasValue ? timeout.Value : webRequest.Timeout;
 			if (webRequest.Method == "POST")
 			{
 				using (var writer = new StreamWriter(await webRequest.GetRequestStreamAsync()))
