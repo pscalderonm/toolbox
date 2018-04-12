@@ -45,6 +45,11 @@ namespace com.pscalderonm.toolbox.api.client
 			return this;
 		}
 
+		public RestApiBuilder SetApiRestMethod(RestApiMethodTypes restApiMethod) {
+			method = restApiMethod.ToString();
+			return this;
+		}
+
 		public RestApiBuilder SetBody(string body)
 		{			
 			this.body = body;

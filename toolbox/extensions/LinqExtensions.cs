@@ -32,5 +32,11 @@ namespace com.pscalderonm.toolbox.extensions
 		{
 			return Task.WhenAll(instance.Select(item => func(item)));
 		}
+
+		public static IEnumerable<T> Flatten<T>(this IEnumerable<IEnumerable<T>> instance) {
+			List<T> items = new List<T>();
+			instance.ForEach(list => items.AddRange(list));
+			return items as IEnumerable<T>;
+		}
 	}
 }
