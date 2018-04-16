@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\toolbox"
+    "\\toolbox",
+    "\\toolbox\\extensions"
   ],
-  "SelectedNode": "\\toolbox",
   "PreviewInSolutionExplorer": false
 }

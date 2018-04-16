@@ -76,7 +76,7 @@ namespace com.pscalderonm.toolbox.api.client
 			webRequest.ContentType = contentType ?? webRequest.ContentType;
 			webRequest.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore);
 			webRequest.Timeout = timeout.HasValue ? timeout.Value : webRequest.Timeout;
-			if (webRequest.Method == "POST")
+			if (IsBodyAllowed(webRequest))
 			{
 				using (var writer = new StreamWriter(webRequest.GetRequestStream()))
 				{
@@ -101,7 +101,7 @@ namespace com.pscalderonm.toolbox.api.client
 			webRequest.Method = method;
 			webRequest.ContentType = contentType ?? webRequest.ContentType;
 			webRequest.CachePolicy = new System.Net.Cache.RequestCachePolicy(System.Net.Cache.RequestCacheLevel.NoCacheNoStore); webRequest.Timeout = timeout.HasValue ? timeout.Value : webRequest.Timeout;
-			if (webRequest.Method == "POST")
+			if (IsBodyAllowed(webRequest))
 			{
 				using (var writer = new StreamWriter(await webRequest.GetRequestStreamAsync()))
 				{
@@ -123,6 +123,10 @@ namespace com.pscalderonm.toolbox.api.client
 		public async Task<string> CallAsync()
 		{
 			return await CallAsync<string>();
+		}
+
+		private static bool IsBodyAllowed(WebRequest req) {
+			return req.Method == "POST" || req.Method == "PUT";
 		}
 	}
 }
