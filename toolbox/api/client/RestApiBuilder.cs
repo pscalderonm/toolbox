@@ -50,16 +50,21 @@ namespace com.pscalderonm.toolbox.api.client
 			return this;
 		}
 
+		public RestApiBuilder SetContentType(string contentType) {
+			this.contentType = contentType;
+			return this;
+		}
+
 		public RestApiBuilder SetBody(string body)
 		{			
 			this.body = body;
 			return this;
 		}
 
-		public RestApiBuilder SetJsonBody(object body)
+		public RestApiBuilder SetJsonBody(object body, JsonSerializerSettings jsonSerializerSettings=null)
 		{
 			contentType = JsonContentType;
-			SetBody(JsonConvert.SerializeObject(body));
+			SetBody(jsonSerializerSettings != null ? JsonConvert.SerializeObject(body, jsonSerializerSettings) : JsonConvert.SerializeObject(body));
 			return this;
 		}
 
@@ -69,7 +74,7 @@ namespace com.pscalderonm.toolbox.api.client
 			return this;
 		}
 
-		public T Call<T>()
+		public T Call<T>(JsonSerializerSettings jsonDeserializerSettings=null)
 		{
 			var webRequest = WebRequest.Create(uri);
 			webRequest.Method = method;
@@ -90,12 +95,12 @@ namespace com.pscalderonm.toolbox.api.client
 				{
 					string json = reader.ReadToEnd();
 					if (typeof(string) == typeof(T)) return (T)Convert.ChangeType(json, typeof(T));
-					else return JsonConvert.DeserializeObject<T>(json, JsonSettings);
+					else return JsonConvert.DeserializeObject<T>(json, jsonDeserializerSettings ?? JsonSettings);
 				}
 			}
 		}
 
-		public async Task<T> CallAsync<T>()
+		public async Task<T> CallAsync<T>(JsonSerializerSettings jsonDeserializerSettings = null)
 		{
 			var webRequest = WebRequest.Create(uri);
 			webRequest.Method = method;
@@ -115,14 +120,14 @@ namespace com.pscalderonm.toolbox.api.client
 				{
 					string json = reader.ReadToEnd();
 					if (typeof(string) == typeof(T)) return (T)Convert.ChangeType(json, typeof(T));
-					else return JsonConvert.DeserializeObject<T>(json, JsonSettings);
+					else return JsonConvert.DeserializeObject<T>(json, jsonDeserializerSettings ?? JsonSettings);
 				} 
 			}
 		}		
 
-		public async Task<string> CallAsync()
+		public async Task<string> CallAsync(JsonSerializerSettings jsonDeserializerSettings = null)
 		{
-			return await CallAsync<string>();
+			return await CallAsync<string>(jsonDeserializerSettings);
 		}
 
 		private static bool IsBodyAllowed(WebRequest req) {
