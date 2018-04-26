@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\toolbox",
-    "\\toolbox\\api\\client"
+    "\\toolbox"
   ],
-  "SelectedNode": "\\toolbox\\api",
+  "SelectedNode": "\\toolbox\\net",
   "PreviewInSolutionExplorer": false
 }
