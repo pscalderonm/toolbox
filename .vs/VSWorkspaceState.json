@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\toolbox",
-    "\\toolbox\\api",
     "\\toolbox\\api\\client"
   ],
-  "SelectedNode": "\\toolbox\\api\\client\\RestApiBuilder.cs",
+  "SelectedNode": "\\toolbox\\api",
   "PreviewInSolutionExplorer": false
 }
