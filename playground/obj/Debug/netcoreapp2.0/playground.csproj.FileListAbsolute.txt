@@ -1,0 +1,14 @@
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\playground.deps.json
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\playground.runtimeconfig.json
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\playground.runtimeconfig.dev.json
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\playground.dll
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\playground.pdb
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\com.pscalderonm.toolbox.dll
+C:\Users\pablo\Source\repos\toolbox\playground\bin\Debug\netcoreapp2.0\com.pscalderonm.toolbox.pdb
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.csprojAssemblyReference.cache
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.AssemblyInfoInputs.cache
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.AssemblyInfo.cs
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.csproj.CopyComplete
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.dll
+C:\Users\pablo\Source\repos\toolbox\playground\obj\Debug\netcoreapp2.0\playground.pdb

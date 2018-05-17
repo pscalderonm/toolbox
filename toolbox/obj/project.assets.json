@@ -247,13 +247,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pablo\\Source\\repos\\toolbox\\toolbox\\toolbox.csproj",
+      "projectUniqueName": "C:\\Users\\pablo\\Source\\Repos\\toolbox\\toolbox\\toolbox.csproj",
       "projectName": "com.pscalderonm.toolbox",
-      "projectPath": "C:\\Users\\pablo\\Source\\repos\\toolbox\\toolbox\\toolbox.csproj",
+      "projectPath": "C:\\Users\\pablo\\Source\\Repos\\toolbox\\toolbox\\toolbox.csproj",
       "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pablo\\Source\\repos\\toolbox\\toolbox\\obj\\",
+      "outputPath": "C:\\Users\\pablo\\Source\\Repos\\toolbox\\toolbox\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
